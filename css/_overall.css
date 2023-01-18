@@ -1,0 +1,86 @@
+body {
+  overflow-x: hidden;
+  min-height: 2000px;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+	max-width: 1440px;
+	padding: 0 30px;
+	margin: 0 auto;
+}
+
+.site-container {
+	overflow: hidden;
+  background-color: var(--white-color);
+}
+
+.flex {
+	display: flex;
+}
+
+.btn-reset {
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	padding: 0;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+	display: none;
+}
+
+.section-title {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 75px;
+	color: var(--dark-color);
+}
+
+.section-title--center {
+	text-align: center;
+	max-width: none;
+}
+
+.under-title {
+  width: 60px;
+  height: 4px;
+  background-color: var(--underline-color);
+  margin-top: 15px;
+}
+
+.section-desc {
+  font-family: 'OpenSans', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--text-color);
+}
+
+.section-word {
+  font-family: 'OpenSans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 182%;  
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #1D1D1D;
+}
+
+.btn {
+	font-weight: 800;
+	font-size: 12px;
+	letter-spacing: 2.18182px;
+	text-transform: uppercase;
+	border-radius: 8px;
+	color: var(--white-color);
+	padding: 33px 80px;
+}

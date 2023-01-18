@@ -1,0 +1,23 @@
+@import "_normalize.css";
+@import "_fonts.css";
+@import "_variables.css";
+@import "_vendor.css";
+@import "_global.css";
+@import "_overall.css";
+
+/* components imports */
+@import url(./components/_header.css);
+@import url(./components/_main.css);
+@import url(./components/_about.css);
+@import url(./components/_expert.css);
+@import url(./components/_magic.css);
+@import url(./components/_portfolio.css);
+@import url(./components/_info.css);
+@import url(./components/_slider.css);
+@import url(./components/_team.css);
+@import url(./components/_price.css);
+@import url(./components/_partners.css);
+@import url(./components/_form.css);
+@import url(./components/_footer.css);
+@import url(./_media.css);
+

@@ -1,0 +1,98 @@
+.header {
+  margin-left: 135px;
+  margin-right: 50px;
+}
+.header__container {
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.menu__list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu__item {
+  padding: 40px 0;
+}
+
+.menu__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.menu__link {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--text-color);
+  text-transform: uppercase;
+}
+
+.menu__item a.active:hover {
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--underline-color);
+}
+
+.burger {
+  position: relative;
+  width: 40px;
+  height: 25px;
+  display: none;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.burger__line {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 2px;
+  background-color: var(--underline-color);
+  transform: translateY(-50%);
+  transition: opacity 0.3s ease-in-out;
+}
+
+.burger::before,
+.burger::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--underline-color);
+  transition: transform 0.3s ease-in-out, top 0.3s ease-in-out, bottom 0.3s ease-in-out;
+}
+
+.burger::before {
+  top: 0;
+}
+
+.burger::after {
+  bottom: 0;
+}
+
+.burger--active .burger__line {
+  opacity: 0;
+}
+
+.burger--active::before {
+  top: 50%;
+  transform: rotate(45deg);
+}
+
+.burger--active::after {
+  bottom: auto;
+  top: 50%;
+  transform: rotate(-45deg);
+}
+
+.stop-scroll {
+  overflow: hidden;
+}

@@ -1,0 +1,23 @@
+.magic {
+  background-color: var(--backdround-color);
+}
+
+.magic__container {
+  padding: 0;
+}
+
+.magic__info {
+  margin: 0 auto;
+}
+.magic__title {
+  max-width: 470px;
+  margin-top: 101px;
+}
+
+.magic__text  {
+  max-width: 470px;
+  margin-top: 67px;
+}
+.magic__desc {
+  margin-bottom: 25px;
+}

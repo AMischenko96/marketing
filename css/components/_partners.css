@@ -1,0 +1,19 @@
+.partners {
+  margin: 64px 0 94px 0;
+}
+
+.partners__logo {
+  margin: 69px 0 94px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.partners__item {
+  cursor: pointer;
+  transition: 1s;
+}
+
+.partners__item:hover {
+  transform: scale(1.2);
+}

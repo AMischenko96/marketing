@@ -1,0 +1,59 @@
+.info__text__quote {
+  margin: 130px 0 148px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info__quote {
+  max-width: 650px;
+  font-family: 'Merriweather', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 36px;
+  text-align: center;
+  color: var(--dark-color);
+}
+.info__quote__autor {
+  margin-top: 50px;
+  font-family: 'Merriweather', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 32px;
+  color: #9E9E9E;
+}
+.info__video {
+  position: relative;
+}
+.info__video__play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.info__count {
+  justify-content: space-evenly;
+  margin: 164px 0 199px;
+}
+
+.info__count__item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.info__count__number {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 73px;
+  color: var(--dark-color);
+}
+.info__count__text {
+  font-family: 'OpenSans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #333333;
+}

@@ -1,0 +1,38 @@
+.team_title {
+  margin: 120px 0 102px 0;
+}
+
+.team__block {
+  justify-content: space-between;
+}
+
+.team__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 132px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.team__item:hover {
+  transform: scale(1.2);
+}
+
+.team__name {
+  margin-top: 35px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #333333;
+  text-transform: uppercase;
+}
+.team__post {
+  margin-top: 12px;
+  font-family: 'OpenSans', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--text-color);
+}
